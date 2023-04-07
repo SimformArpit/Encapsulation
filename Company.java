@@ -11,6 +11,14 @@ public class Company {
 
     private boolean isProfitable;
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public int getNoOfEmploy() {
 
         return noOfEmploy;
@@ -30,7 +38,7 @@ public class Company {
 
     public void setProfit(int profit) {
         this.isProfitable = profit > 0;
-        this.profit = profit;
+//        this.profit = profit;
     }
 
     public String getCompanyLevel() {
@@ -54,12 +62,6 @@ public class Company {
         return isProfitable;
     }
 
-    public String getName() {
-        return name;
-    }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 }
 
